@@ -1,0 +1,103 @@
+*{
+    background-color: rgb(37, 37, 37);
+    font-family: monospace;
+    color: aliceblue;
+}
+
+h1{
+    margin: auto;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-content: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#boxCalc{
+    display: flex;
+    width: 340px;
+    height: 490px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+    margin: auto;
+}
+
+#display{
+    display: flex;
+    margin: auto;
+    background-color: rgb(189, 189, 189);
+    border: 5px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    width: 280px;
+    height: 150px;
+    align-items: flex-end;
+    color: black;
+}
+
+#button-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin: auto;  
+    width: 280px;
+    height: 260px;
+}
+
+.nmbrBtn {
+    width: 58px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(206, 134, 63);
+}
+
+.opBtn {
+    width: 58px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(145, 145, 153);
+}
+
+button {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#btn0{
+    width: 58px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(80, 80, 161);
+}
+
+#btnc{
+    width: 58px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(184, 67, 67);
+}
+
+#btneq{
+    width: 58px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(184, 182, 67);
+}
+
+button:hover, #btneq:hover, #btnc:hover, #btn0:hover {
+    background-color: rgb(180, 62, 7);
+}
